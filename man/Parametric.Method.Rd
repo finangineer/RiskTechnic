@@ -23,3 +23,7 @@ Value-at-Risk and Expected Shortfall Estimates
 \description{
 It performs Parametric method for univariate daily risk calculation based on the selected distribution.
 }
+\examples{
+Parametric.Method(rnorm(100,1,2),dist="normal",confidence.level=0.95)
+
+}

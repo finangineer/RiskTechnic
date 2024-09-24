@@ -1,7 +1,7 @@
 #' Fit Parameters
 #'
 #' For the input data, it finds the parameters for "Standard Normal", "Standard-t", "Skewed-Normal" and "Skewed-t" distributions
-#' @param data
+#' @param data Daily Log-Return Series
 #' @param dist "normal","std","skewn","skewt"
 #'
 #' @return Parameters of the fitted distributions based on the choice

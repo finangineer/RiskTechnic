@@ -8,7 +8,8 @@
 #' @return Value-at-Risk and Expected Shortfall Estimates
 #' @export
 #'
-#' @examples
+#' @examples Parametric.Method(rnorm(100,1,2),dist="normal",confidence.level=0.95)
+#'
 Parametric.Method <- function(data,dist=c("normal","std","skewn","skewt"),confidence.level=0.95){
 
   if (!exists("Fit.Parameters") || !is.function(Fit.Parameters)) {

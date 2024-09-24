@@ -7,6 +7,8 @@
 Fit.Parameters(data, dist = c("normal", "std", "skewn", "skewt"))
 }
 \arguments{
+\item{data}{Daily Log-Return Series}
+
 \item{dist}{"normal","std","skewn","skewt"}
 }
 \value{
