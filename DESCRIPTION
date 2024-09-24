@@ -4,7 +4,9 @@ Version: 0.0.0.9000
 Authors@R: 
      person("Kerem", "Surgun", , "surgunk@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Univariate and Multivariate Risk Measures to quantify risk, especially Value-At-Risk and Expected Short, for any type of assets in a dynamic way. It includes different econometric techniques, back-testing techniques, loss functions.
+Description: Univariate and Multivariate Risk Measures to quantify risk, especially Value-At-Risk and 
+             Expected Shortfall, for any type of assets in a dynamic way. It includes different 
+             econometric techniques, back-testing techniques, loss functions.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
