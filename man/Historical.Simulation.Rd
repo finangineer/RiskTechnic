@@ -18,5 +18,5 @@ VaR and ES estimates based on a risk level
 Historical Simulation Method
 }
 \examples{
-Historical.Simulation(USD/TRY,confidence.level=0.95)
+Historical.Simulation(rnorm(100,-0.5,1),confidence.level=0.95)
 }

@@ -6,7 +6,7 @@
 #' @return VaR and ES estimates based on a risk level
 #' @export
 #'
-#' @examples Historical.Simulation(USD/TRY,confidence.level=0.95)
+#' @examples Historical.Simulation(rnorm(100,-0.5,1),confidence.level=0.95)
 Historical.Simulation <- function(data,confidence.level=0.95){
 
   # Calculate VaR as the quantile of historical returns
